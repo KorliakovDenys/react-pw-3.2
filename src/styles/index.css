@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 :root {
   --app-width: 400px;
 }
 
 html {
   box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
 }
 
 *,
