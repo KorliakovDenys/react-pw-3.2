@@ -1,4 +1,5 @@
 .app-container {
-  width: var(--app-width);
+  justify-content: center;
   margin: 0 auto;
+  display: flex;
 }
