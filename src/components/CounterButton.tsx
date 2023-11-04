@@ -1,14 +1,15 @@
 import "../styles/CounterButton.css"
 
 interface CounterButtonProps {
-	onClick:() => void
+	value: string
+	onClick:(value:number) => void
 }
 
-const CounterButton = ({onClick}:CounterButtonProps) => {
+const CounterButton = ({value, onClick}:CounterButtonProps) => {
 
 	return (
-		<div className={"counterButton"} onClick={onClick}>
-			+1
+		<div className={"counterButton"} onClick={() => {onClick(Number(value))}}>
+			{value}
 		</div>
 	);
 };
