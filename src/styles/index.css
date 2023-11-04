@@ -1,0 +1,13 @@
+:root {
+  --app-width: 400px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
